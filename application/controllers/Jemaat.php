@@ -14,6 +14,7 @@ class Jemaat extends CI_Controller
 		$data = array(
 			"jemaats" => $dataJemaat
 		);
+		#test
 		$this->load->view('content/jemaat/v_list_jemaat', $data);
 	}
 
